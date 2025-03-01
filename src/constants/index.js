@@ -56,10 +56,10 @@ const services = [
     title: "Graphic Designer",
     icon: mobile,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
+  {
+    title: "UI/UX",
+    icon: backend,
+  },
   {
     title: "Artist",
     icon: creator,
@@ -91,10 +91,10 @@ const technologies = [
     name: "githubp",
     icon: githubp,
   },
-  {
-    name: "mysql",
-    icon: mysql,
-  },
+  // {
+  //   name: "mysql",
+  //   icon: mysql,
+  // },
   // {
   //   name: "Redux Toolkit",
   //   icon: redux,
@@ -238,9 +238,31 @@ const projects = [
     source_code_link: "https://github.com/AyeshaZahid296/apple-clone",
   },
   {
-    name: "Positivus",
+    name: "Library Managment System",
     description:
-      " this is a responsive website built using HTML, JavaScript, and Bootstrap, based on a Figma design. It transforms a UI concept into a fully functional web page with a clean and modern layout. ",
+      "library management system built using C++ with Windows Forms in Visual Studio for the frontend and MySQL Workbench for the backend. It helps manage books, users, and lending operations efficiently.",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "windows forms",
+        color: "green-text-gradient",
+      },
+      {
+        name: "My sql",
+        color: "pink-text-gradient",
+      },
+      
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/AyeshaZahid296/LibraryProject",
+  },
+  {
+    name: "Positivus (Design to code)",
+    description:
+      " This is a responsive website built using HTML, JavaScript, and Bootstrap, based on a Figma design. It transforms a UI concept into a fully functional web page with a clean and modern layout. ",
     tags: [
       {
         name: "html",
@@ -258,52 +280,6 @@ const projects = [
     image: tripguide,
     source_code_link: "https://github.com/AyeshaZahid296/design-to-code",
   },
-  {
-    name: "Library Managment System",
-    description:
-      "library management system built using C++ with Windows Forms in Visual Studio for the frontend and MySQL Workbench for the backend. It helps manage books, users, and lending operations efficiently.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "visual studio",
-        color: "green-text-gradient",
-      },
-      {
-        name: "windows forms",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "My sql",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/AyeshaZahid296/LibraryProject",
-  },
-  // {
-  //   name: "Positivus",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "html",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/AyeshaZahid296/design-to-code",
-  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };
