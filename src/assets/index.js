@@ -16,6 +16,7 @@ import bootstrap from "./tech/bootstrap.png";
 import java from "./tech/java.png";
 import c from "./tech/c.png";
 import git from "./tech/git.png";
+import mysql from "./tech/mysql.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
@@ -64,6 +65,7 @@ export {
   github,
   c,
   java,
+  mysql,
   meta,
   shopify,
   starbucks,

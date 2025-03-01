@@ -13,6 +13,7 @@ import {
   c,
   java,
   githubp,
+  mysql,
   nodejs,
   mongodb,
   git,
@@ -55,10 +56,10 @@ const services = [
     title: "Graphic Designer",
     icon: mobile,
   },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
+  // {
+  //   title: "Backend Developer",
+  //   icon: backend,
+  // },
   {
     title: "Artist",
     icon: creator,
@@ -89,6 +90,10 @@ const technologies = [
   {
     name: "githubp",
     icon: githubp,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
   },
   // {
   //   name: "Redux Toolkit",
