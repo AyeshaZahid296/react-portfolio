@@ -13,23 +13,24 @@ import {
   c,
   java,
   githubp,
-  mysql,
-  nodejs,
+  // mysql,
+  node,
   mongodb,
-  git,
+  expressjs,
   bootstrap,
-  figma,
+  // figma,
   adobe,
   firebase,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  // docker,
+  // meta,
+  // starbucks,
+  // tesla,
+  // shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  taskmanager,
+  // threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -88,17 +89,21 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "githubp",
-    icon: githubp,
+    name: "Redux Toolkit",
+    icon: redux,
   },
-  // {
-  //   name: "mysql",
-  //   icon: mysql,
-  // },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "mongodb",
+    icon: mongodb,
+  },
+  {
+    name: "node",
+    icon: node,
+  },
+  {
+    name: "expressjs",
+    icon: expressjs,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -110,6 +115,10 @@ const technologies = [
   {
     name: "firebase",
     icon: firebase,
+  },
+  {
+    name: "githubp",
+    icon: githubp,
   },
   // {
   //   name: "Three JS",
@@ -133,60 +142,60 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-];
+// const experiences = [
+//   {
+//     title: "React.js Developer",
+//     company_name: "Starbucks",
+//     icon: starbucks,
+//     iconBg: "#383E56",
+//     date: "March 2020 - April 2021",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "React Native Developer",
+//     company_name: "Tesla",
+//     icon: tesla,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2021 - Feb 2022",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Web Developer",
+//     company_name: "Shopify",
+//     icon: shopify,
+//     iconBg: "#383E56",
+//     date: "Jan 2022 - Jan 2023",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+//   {
+//     title: "Full stack Developer",
+//     company_name: "Meta",
+//     icon: meta,
+//     iconBg: "#E6DEDD",
+//     date: "Jan 2023 - Present",
+//     points: [
+//       "Developing and maintaining web applications using React.js and other related technologies.",
+//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+//       "Implementing responsive design and ensuring cross-browser compatibility.",
+//       "Participating in code reviews and providing constructive feedback to other developers.",
+//     ],
+//   },
+// ];
 
 const testimonials = [
   {
@@ -217,20 +226,78 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Task Manager",
+    description:
+      "This is a full-stack Task Manager application built using the MERN stack (MongoDB, Express.js, React.js, excel.js and Node.js). It allows users to create, update, delete, and manage their daily tasks efficiently. The app features secure user authentication, role-based access, and a responsive UI for a seamless user experience across devices.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Excel.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Jwt",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskmanager, // yahan tum apne project ka image variable use karo
+    source_code_link: "https://github.com/AyeshaZahid296/task-manager", // apna actual repo link lagao
+  },
+  {
+    name: "Student Feedback Management System",
+    description:
+      "This is a full-stack Student Feedback Management System built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It allows students to submit feedback through an intuitive form, and provides an admin dashboard to view, filter, paginate, and delete feedback entries. The app includes secure admin authentication, role-based routing, and a responsive UI for smooth usability across devices.",
+    tags: [
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Express.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React.js",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: studentfeedback, // yahan tum apne project ka image variable use karo
+    source_code_link: "https://github.com/AyeshaZahid296/student-feedback-system", // apna actual repo link lagao
+  },
+  {
     name: "Apple Clone",
     description:
       " This is Apple website clone built using HTML, CSS, and JavaScript. It recreates Apple's sleek design and responsive layout for a visually appealing user experience.",
     tags: [
       {
-        name: "html",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
+        name: "Css",
         color: "green-text-gradient",
       },
       {
-        name: "javaScript",
+        name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
@@ -247,14 +314,14 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "windows forms",
+        name: "Windows forms",
         color: "green-text-gradient",
       },
       {
         name: "My sql",
         color: "pink-text-gradient",
       },
-      
+
     ],
     image: jobit,
     source_code_link: "https://github.com/AyeshaZahid296/LibraryProject",
@@ -265,15 +332,15 @@ const projects = [
       " This is a responsive website built using HTML, JavaScript, and Bootstrap, based on a Figma design. It transforms a UI concept into a fully functional web page with a clean and modern layout. ",
     tags: [
       {
-        name: "html",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "javascript",
+        name: "Javascript",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
@@ -282,4 +349,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, testimonials, projects };
