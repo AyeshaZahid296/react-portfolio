@@ -47,13 +47,13 @@ const services = [
     title: "Full-Stack Web Developer",
     icon: web,
   },
+  // {
+  //   title: "Backend Web Developer",
+  //   icon: backend,
+  // },
   {
     title: "Graphic Designer",
     icon: mobile,
-  },
-  {
-    title: "UI/UX",
-    icon: backend,
   },
   {
     title: "Artist",
@@ -74,10 +74,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -106,10 +106,10 @@ const technologies = [
     name: "bootstrap",
     icon: bootstrap,
   },
-  {
-    name: "firebase",
-    icon: firebase,
-  },
+  // {
+  //   name: "firebase",
+  //   icon: firebase,
+  // },
   {
     name: "githubp",
     icon: githubp,
@@ -118,10 +118,10 @@ const technologies = [
     name: "c",
     icon: c,
   },
-  {
-    name: "java",
-    icon: java,
-  },
+  // {
+  //   name: "java",
+  //   icon: java,
+  // },
   {
     name: "adobe",
     icon: adobe,
