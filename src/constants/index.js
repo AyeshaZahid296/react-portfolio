@@ -158,6 +158,10 @@ const projects = [
         name: "Jwt",
         color: "pink-text-gradient",
       },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
     ],
     image: taskmanager,
     source_code_link: "https://github.com/AyeshaZahid296/task-manager-MERN",
@@ -183,6 +187,10 @@ const projects = [
         name: "Node.js",
         color: "green-text-gradient",
       },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
+      },
     ],
     image: studentfeedback,
     source_code_link: "https://github.com/AyeshaZahid296/studentFeedbackSystem",
@@ -203,6 +211,10 @@ const projects = [
       {
         name: "JavaScript",
         color: "pink-text-gradient",
+      },
+      {
+        name: "TailwindCss",
+        color: "green-text-gradient",
       },
     ],
     image: devconnect,
