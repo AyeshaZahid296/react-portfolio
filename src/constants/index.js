@@ -13,24 +13,18 @@ import {
   c,
   java,
   githubp,
-  // mysql,
   node,
   mongodb,
   expressjs,
   bootstrap,
-  // figma,
   adobe,
   firebase,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
-  carrent,
-  jobit,
-  tripguide,
+  apple,
+  librarysystem,
+  positivus,
   taskmanager,
-  // threejs,
+  studentfeedback,
+  devconnect,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +44,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Web Developer",
     icon: web,
   },
   {
@@ -120,14 +114,6 @@ const technologies = [
     name: "githubp",
     icon: githubp,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
   {
     name: "c",
     icon: c,
@@ -142,93 +128,11 @@ const technologies = [
   },
 ];
 
-// const experiences = [
-//   {
-//     title: "React.js Developer",
-//     company_name: "Starbucks",
-//     icon: starbucks,
-//     iconBg: "#383E56",
-//     date: "March 2020 - April 2021",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "React Native Developer",
-//     company_name: "Tesla",
-//     icon: tesla,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2021 - Feb 2022",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Web Developer",
-//     company_name: "Shopify",
-//     icon: shopify,
-//     iconBg: "#383E56",
-//     date: "Jan 2022 - Jan 2023",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Full stack Developer",
-//     company_name: "Meta",
-//     icon: meta,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2023 - Present",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-// ];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://ayeshazahid296.github.io/apple-clone/",
-  },
-];
-
 const projects = [
   {
     name: "Task Manager",
     description:
-      "This is a full-stack Task Manager application built using the MERN stack (MongoDB, Express.js, React.js, excel.js and Node.js). It allows users to create, update, delete, and manage their daily tasks efficiently. The app features secure user authentication, role-based access, and a responsive UI for a seamless user experience across devices.",
+      "A full-stack Task Manager app built with the MERN stack for creating, updating, and deleting daily tasks. Includes secure authentication, role-based access, and a fully responsive UI for smooth usage on all devices.",
     tags: [
       {
         name: "MongoDB",
@@ -255,13 +159,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: taskmanager, // yahan tum apne project ka image variable use karo
-    source_code_link: "https://github.com/AyeshaZahid296/task-manager", // apna actual repo link lagao
+    image: taskmanager,
+    source_code_link: "https://github.com/AyeshaZahid296/task-manager-MERN",
   },
   {
     name: "Student Feedback Management System",
     description:
-      "This is a full-stack Student Feedback Management System built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It allows students to submit feedback through an intuitive form, and provides an admin dashboard to view, filter, paginate, and delete feedback entries. The app includes secure admin authentication, role-based routing, and a responsive UI for smooth usability across devices.",
+      "A full-stack feedback management app using the MERN stack. Students can submit feedback while admins view, filter, paginate, and delete entries. Features secure login, role-based routing, and responsive UI design.",
     tags: [
       {
         name: "MongoDB",
@@ -277,45 +181,66 @@ const projects = [
       },
       {
         name: "Node.js",
-        color: "yellow-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: studentfeedback, // yahan tum apne project ka image variable use karo
-    source_code_link: "https://github.com/AyeshaZahid296/student-feedback-system", // apna actual repo link lagao
+    image: studentfeedback,
+    source_code_link: "https://github.com/AyeshaZahid296/studentFeedbackSystem",
   },
   {
-    name: "Apple Clone",
+    name: "DevConnect Landing Page",
     description:
-      " This is Apple website clone built using HTML, CSS, and JavaScript. It recreates Apple's sleek design and responsive layout for a visually appealing user experience.",
+      "A responsive landing page for DevConnect built with React.js and Tailwind CSS. Features reusable components, smooth animations, clean architecture, and a visually modern design that adapts across all devices.",
     tags: [
       {
-        name: "Html",
-        color: "blue-text-gradient",
+        name: "React.js",
+        color: "green-text-gradient",
       },
       {
-        name: "Css",
-        color: "green-text-gradient",
+        name: "Tailwind CSS",
+        color: "blue-text-gradient",
       },
       {
         name: "JavaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: devconnect,
+    source_code_link: "https://github.com/AyeshaZahid296/devconnect-react-landingPage",
+  },
+  {
+    name: "Apple Clone",
+    description:
+      "An Apple website clone built using HTML, CSS, and JavaScript. Recreates the sleek Apple design with a responsive layout, smooth interactions, and a visually appealing interface for a premium user experience.",
+    tags: [
+      {
+        name: "Html",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: apple,
     source_code_link: "https://github.com/AyeshaZahid296/apple-clone",
   },
   {
     name: "Library Managment System",
     description:
-      "library management system built using C++ with Windows Forms in Visual Studio for the frontend and MySQL Workbench for the backend. It helps manage books, users, and lending operations efficiently.",
+      "A desktop-based library system built with C++ Windows Forms and MySQL. Helps manage books, members, and lending activities efficiently, with a user-friendly interface and reliable database integration.",
     tags: [
       {
         name: "C++",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "Windows forms",
-        color: "green-text-gradient",
+        color: "blue-text-gradient",
       },
       {
         name: "My sql",
@@ -323,13 +248,13 @@ const projects = [
       },
 
     ],
-    image: jobit,
+    image: librarysystem,
     source_code_link: "https://github.com/AyeshaZahid296/LibraryProject",
   },
   {
     name: "Positivus (Design to code)",
     description:
-      " This is a responsive website built using HTML, JavaScript, and Bootstrap, based on a Figma design. It transforms a UI concept into a fully functional web page with a clean and modern layout. ",
+      "A responsive website built with HTML, JavaScript, and Bootstrap from a Figma design. Transforms the UI concept into a functional web page with a clean layout and adaptive design for all screen sizes.",
     tags: [
       {
         name: "Html",
@@ -344,9 +269,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: positivus,
     source_code_link: "https://github.com/AyeshaZahid296/design-to-code",
   },
 ];
 
-export { services, technologies, testimonials, projects };
+export { services, technologies, projects };

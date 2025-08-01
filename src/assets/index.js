@@ -11,15 +11,11 @@ import expressjs from "./tech/expressjs.webp";
 import node from "./tech/node.png";
 import html from "./tech/html.png";
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import firebase from "./tech/firebase.png";
-// import figma from "./tech/figma.png";
 import adobe from "./tech/adobe.png";
 import bootstrap from "./tech/bootstrap.png";
 import java from "./tech/java.png";
 import c from "./tech/c.png";
-// import git from "./tech/git.png";
-import mysql from "./tech/mysql.png";
 import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import githubp from "./tech/githubp.png";
@@ -27,17 +23,13 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-// import threejs from "./tech/threejs.svg";
 
-// import meta from "./company/meta.png";
-// import shopify from "./company/shopify.png";
-// import starbucks from "./company/starbucks.png";
-// import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import librarysystem from "./library-system.png";
+import apple from "./apple.png";
+import positivus from "./positivus.png";
 import taskmanager from "./task-manager.png";
+import studentfeedback from "./student-feedback.png";
+import devconnect from "./devconnect.png";
 
 export {
   logo,
@@ -50,12 +42,9 @@ export {
   close,
   html,
   css,
-  // docker,
   firebase,
   bootstrap,
-  // figma,
   adobe,
-  // git,
   javascript,
   mongodb,
   node,
@@ -64,17 +53,13 @@ export {
   redux,
   tailwind,
   typescript,
-  // threejs,
   github,
   c,
   java,
-  // mysql,
-  // meta,
-  // shopify,
-  // starbucks,
-  // tesla,
-  carrent,
-  jobit,
-  tripguide,
+  apple,
+  positivus,
+  librarysystem,
   taskmanager,
+  studentfeedback,
+  devconnect,
 };
